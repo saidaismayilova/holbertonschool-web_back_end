@@ -8,5 +8,4 @@ def list_all(mongo_collection):
     Returns:
         list: List of all documents in the collection, or empty list if no documents
     """
-    documents = list(mongo_collection.find())
-    return documents if documents else []
+    return list(mongo_collection.find())
