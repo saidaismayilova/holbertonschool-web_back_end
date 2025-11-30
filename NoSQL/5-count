@@ -1,2 +1,3 @@
-// my comment
-db.school.countDocuments();
+// Count documents in the 'school' collection and display the result
+var count = db.school.countDocuments();
+print(count);
