@@ -1,5 +1,4 @@
 // This script counts documents in the 'school' collection
 // The database is specified when running the 'mongo' command
 
-var count = db.school.countDocuments();
-print("Number of documents in 'school' collection:", count);
+print("Number of documents in 'school' collection: " + db.school.countDocuments().toNumber());
