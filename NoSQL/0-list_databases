@@ -1,2 +1,2 @@
 // my comment
-print(db.getMongo().getDBs().databases.map(d => d.name).join('\n'));
+show dbs
