@@ -1,8 +1,1 @@
-// count_school.js
-// Prints the number of documents in the "school" collection.
-
-const dbName = db.getName();  // database name passed from command line
-const count = db.school.countDocuments();
-
-print(`Database: ${dbName}`);
-print(`Number of documents in 'school' collection: ${count}`);
+db.school.countDocuments();
